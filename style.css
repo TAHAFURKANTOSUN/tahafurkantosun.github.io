@@ -21,6 +21,11 @@ body {
   width: min(1100px, 92%);
   margin: 0 auto;
 }
+.paragraf{
+  height: auto;
+  width: auto;
+  display: block;
+}
 .responsive-img {
             max-width: 100%;       /* Resmin kendi boyutundan taşmamasını sağlar */
             height: auto;          /* Oranları korur */
