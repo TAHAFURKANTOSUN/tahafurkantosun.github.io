@@ -29,8 +29,9 @@ body {
   align-items: center;    /* Dikeyde ortalar (isteğe bağlı) */
 }
 .responsive-img {
-            max-width: 100%;       /* Resmin kendi boyutundan taşmamasını sağlar */
+            max-width: 50%;       /* Resmin kendi boyutundan taşmamasını sağlar */
             height: auto;          /* Oranları korur */
+            width: auto;           /* Genişliği otomatik ayarlar */
             display: block;        /* Boşlukları engeller */
             justify-content: center; /* Yatayda ortalar */
             align-items: center;    /* Dikeyde ortalar (isteğe bağlı) */
