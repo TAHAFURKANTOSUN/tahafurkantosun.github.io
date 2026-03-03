@@ -25,11 +25,15 @@ body {
   height: auto;
   width: auto;
   display: block;
+  justify-content: center; /* Yatayda ortalar */
+  align-items: center;    /* Dikeyde ortalar (isteğe bağlı) */
 }
 .responsive-img {
             max-width: 100%;       /* Resmin kendi boyutundan taşmamasını sağlar */
             height: auto;          /* Oranları korur */
             display: block;        /* Boşlukları engeller */
+            justify-content: center; /* Yatayda ortalar */
+            align-items: center;    /* Dikeyde ortalar (isteğe bağlı) */
         }
 /* Skip link (erişilebilirlik) */
 .skip-link {
