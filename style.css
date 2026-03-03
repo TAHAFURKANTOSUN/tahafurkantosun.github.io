@@ -24,6 +24,9 @@ body {
 p.p1{
   text-align: center;
 }
+div.about{
+  text-align: left;
+}
 .responsive-img {
     width: 140px;
     height: 140px;
