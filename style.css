@@ -22,11 +22,7 @@ body {
   margin: 0 auto;
 }
 .paragraf{
-  height: auto;
-  width: auto;
-  display: block;
-  justify-content: center; /* Yatayda ortalar */
-  align-items: center;    /* Dikeyde ortalar (isteğe bağlı) */
+  text-align: center;
 }
 .responsive-img {
     width: 140px;
