@@ -29,12 +29,13 @@ body {
   align-items: center;    /* Dikeyde ortalar (isteğe bağlı) */
 }
 .responsive-img {
-            max-width: 50%;       /* Resmin kendi boyutundan taşmamasını sağlar */
-            height: auto;          /* Oranları korur */
-            width: auto;           /* Genişliği otomatik ayarlar */
-            display: block;        /* Boşlukları engeller */
-            justify-content: center; /* Yatayda ortalar */
-            align-items: center;    /* Dikeyde ortalar (isteğe bağlı) */
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+    border: 3px solid white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
         }
 /* Skip link (erişilebilirlik) */
 .skip-link {
