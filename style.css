@@ -1,7 +1,7 @@
 /* Color Theme Swatches in Hex */
 :root {
     --primary-color: #0B261A;;
-    --secondary-color: #19402E;
+    --secondary-color: #f6000c;
     --accent-color: #012611;
     --dark-color: #000D06;
     --highlight-color: #D9D3C1;
@@ -12,7 +12,7 @@ html, body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     min-height: 100vh;
