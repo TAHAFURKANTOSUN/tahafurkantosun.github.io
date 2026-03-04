@@ -1,15 +1,12 @@
 <!doctype html>
 <html lang="tr">
-  <head bgcolor=" #00cc00">
-    <!-- UTF-8 önerilir (metin/karakter bozulmalarını önler) -->
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Taha Furkan Tosun CV </title>
-    <img src="tft.jpeg" alt="Taha Furkan Tosun" class="responsive-img"/>
-    <p class="p1">Yapay Zeka | Mikroişlemciler  </p>
-
-    <!-- External CSS (en önerilen yöntem) -->
-    <link rel="stylesheet" href="style.css" width="100px"  height="100px" />
+    <title>Taha Furkan Tosun | CV</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
@@ -17,8 +14,14 @@
 
     <header class="site-header">
       <div class="container header-inner">
-        <h1 class="brand">Taha Furkan Tosun CV</h1>
-        <p class="tagline">Ankara Üniversitesi Yazılım Mühendisliği 3.Sınıf Öğrencisi</p>
+        <div class="profile-header">
+            <img src="tft.jpeg" alt="Taha Furkan Tosun" class="responsive-img"/>
+            <div>
+                <h1 class="brand">Taha Furkan Tosun</h1>
+                <p class="tagline">Ankara Üniversitesi Yazılım Mühendisliği 3. Sınıf</p>
+                <p class="p1">Yapay Zeka | Mikroişlemciler</p>
+            </div>
+        </div>
       </div>
     </header>
 
@@ -26,55 +29,65 @@
       <div class="container">
         <ul class="nav-list">
           <li><a href="#about">Hakkımda</a></li>
-          <li><a href="#education">Eğitim Bilgileri</a></li>
-          <li><a href="#boxmodel">Box Model</a></li>
+          <li><a href="#education">Eğitim</a></li>
+          <li><a href="#skills">Yetenekler</a></li>
           <li><a href="#responsive">Responsive</a></li>
         </ul>
       </div>
     </nav>
 
-    <main class="container layout" id="about">
-     <section class="card" >
-        <h2 id="about">1) Hakkımda</h2>
+    <main class="container layout" id="content">
+      <section class="card" id="about">
+        <h2>1) Hakkımda</h2>
         <p>
-          Merhaba ben Taha Furkan Tosun, Ankara Üniversitesi Yazılım Mühendisliği 3.Sınıf öğrencisiyim. Yapay zeka ve mikroişlemciler alanlarında çalışıyorum.
-          Gelecekte bu alanlarda uzmanlaşmayı ve bu alanlarda yenilikçi projeler geliştirmeyi hedefliyorum. Şu anda çeşitli yapay zeka projelerinde yer alıyorum ve mikroişlemcilerle ilgili deneyim kazanıyorum.
-        </p>
-
-     </section>
-
-      <section class="card" id="education">
-        <h2>2) Eğitim Bilgileri</h2>
-        <p>
-          Ankara Üniversitesi Yazılım Mühendisliği (2023-2027 devam ediyor)
+          Merhaba, ben <strong>Taha Furkan Tosun</strong>. Ankara Üniversitesi Yazılım Mühendisliği 3. sınıf öğrencisiyim. 
+          Yapay zeka ve mikroişlemciler alanlarında yenilikçi projeler geliştirmeyi hedefliyorum. 
+          Şu anda otonom sistemler ve derin öğrenme üzerine çalışmalarımı sürdürüyorum.
         </p>
       </section>
 
-      <section class="card" id="boxmodel">
-        <h2>3) Yetenekler</h2>
-        <div>
-          <div >
-            <p>
-              Programlama Dilleri: C#, Python, C++
-              Araçlar: Gazebo, Git, Jupyter Notebook
-              Diller: İngilizce 
-            </p>
+      <section class="card" id="education">
+        <h2>2) Eğitim Bilgileri</h2>
+        <ul>
+            <li>
+                <strong>Ankara Üniversitesi</strong> <br>
+                Yazılım Mühendisliği
+                <small>2023 - 2027 (Beklenen)</small>
+            </li>
+        </ul>
+      </section>
+
+      <section class="card" id="skills">
+        <h2>3) Yetenekler & Araçlar</h2>
+        <div class="skills-grid">
+          <div>
+            <h3>Programlama</h3>
+            <p>C#, Python, C++</p>
+          </div>
+          <div>
+            <h3>Araçlar</h3>
+            <p>Gazebo, Git, Jupyter Notebook, ROS</p>
+          </div>
+          <div>
+            <h3>Diller</h3>
+            <p>Türkçe (Anadil), İngilizce</p>
           </div>
         </div>
       </section>
 
       <section class="card" id="responsive">
-        <h2>4) Responsive (Media Query)</h2>
+        <h2>4) Box Model & Responsive</h2>
         <p>
-          Ekran daraldığında yerleşim tek sütuna düşecek ve menü daha kompakt görünecek.
-          Tarayıcı genişliğini değiştirip gözlemleyin.
+          Bu sayfa <strong>CSS Box Model</strong> prensiplerine uygun olarak tasarlanmıştır. 
+          Media Query kullanımı sayesinde ekran genişliği 768px altına düştüğünde yerleşim tek sütuna evrilir.
         </p>
+        [Image of CSS Box Model diagram]
       </section>
     </main>
 
     <footer class="site-footer">
       <div class="container">
-        <small>© YMH354 Web Design and Programming</small>
+        <p>© 2026 YMH354 Web Tasarımı ve Programlama Dersi Projesi</p>
       </div>
     </footer>
   </body>
