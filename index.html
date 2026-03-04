@@ -3,49 +3,39 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Taha Furkan Tosun | CV</title>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Taha Furkan Tosun | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <a class="skip-link" href="#content">İçeriğe atla</a>
-
-    <header class="site-header">
-      <div class="container header-inner">
-        <div class="profile-header">
-            <img src="tft.jpeg" alt="Taha Furkan Tosun" class="responsive-img"/>
-            <div>
-                <h1 class="brand">Taha Furkan Tosun</h1>
-                <p class="tagline">Ankara Üniversitesi Yazılım Mühendisliği 3. Sınıf</p>
-                <p class="p1">Yapay Zeka | Mikroişlemciler</p>
-            </div>
-        </div>
-      </div>
-    </header>
-
-    <nav class="site-nav" aria-label="Ana menü">
+    <nav class="site-nav">
       <div class="container">
         <ul class="nav-list">
           <li><a href="#about">Hakkımda</a></li>
+          <li><a href="#projects">Projeler</a></li>
           <li><a href="#education">Eğitim</a></li>
           <li><a href="#skills">Yetenekler</a></li>
-          <li><a href="#responsive">Responsive</a></li>
+          <li><a href="#boxmodel">Box Model</a></li>
         </ul>
       </div>
     </nav>
 
-    <main class="container layout" id="content">
-      <section class="card" id="about">
-        <h2>1) Hakkımda</h2>
-        <p>
-          Merhaba, ben <strong>Taha Furkan Tosun</strong>. Ankara Üniversitesi Yazılım Mühendisliği 3. sınıf öğrencisiyim. 
-          Yapay zeka ve mikroişlemciler alanlarında yenilikçi projeler geliştirmeyi hedefliyorum. 
-          Şu anda otonom sistemler ve derin öğrenme üzerine çalışmalarımı sürdürüyorum.
-        </p>
-      </section>
+    <header class="hero">
+      <div class="container">
+        <img src="tft.jpeg" alt="Taha Furkan Tosun" class="profile-img"/>
+        <h1>Taha Furkan Tosun</h1>
+        <p class="tagline">Ankara Üniversitesi | Yazılım Mühendisliği 3. Sınıf</p>
+      </div>
+    </header>
 
+    <main class="container">
+      <section id="about" class="card">
+        <h2>1) Hakkımda</h2>
+        <p>Merhaba, ben <strong>Taha Furkan Tosun</strong>. Ankara Üniversitesi Yazılım Mühendisliği 3. sınıf öğrencisiyim. 
+          Yapay zeka ve mikroişlemciler alanlarında yenilikçi projeler geliştirmeyi hedefliyorum. 
+          Şu anda otonom sistemler ve derin öğrenme üzerine çalışmalarımı sürdürüyorum.</p>
+      </section>
       <section class="card" id="education">
         <h2>2) Eğitim Bilgileri</h2>
         <ul>
@@ -57,6 +47,13 @@
         </ul>
       </section>
 
+      <section id="projects" class="card">
+        <h2>2) Öne Çıkan Projeler</h2>
+        <ul>
+          <li><strong>KurbanLink:</strong> TÜBİTAK 2209-A destekli web platformu.</li>
+          <li><strong>Teknofest 2025:</strong> Akıllı Ulaşım (Hava) kategorisi Finalisti.</li>
+        </ul>
+      </section>
       <section class="card" id="skills">
         <h2>3) Yetenekler & Araçlar</h2>
         <div class="skills-grid">
@@ -70,25 +67,20 @@
           </div>
           <div>
             <h3>Diller</h3>
-            <p>Türkçe (Anadil), İngilizce</p>
+            <p>İngilizce</p>
           </div>
         </div>
       </section>
 
-      <section class="card" id="responsive">
-        <h2>4) Box Model & Responsive</h2>
-        <p>
-          Bu sayfa <strong>CSS Box Model</strong> prensiplerine uygun olarak tasarlanmıştır. 
-          Media Query kullanımı sayesinde ekran genişliği 768px altına düştüğünde yerleşim tek sütuna evrilir.
-        </p>
-        [Image of CSS Box Model diagram]
+      <section id="boxmodel" class="card">
+        <h2>3) Box Model Nedir?</h2>
+        <p>CSS'de her element bir kutu olarak kabul edilir. İçten dışa: Content, Padding, Border ve Margin.</p>
+        
       </section>
     </main>
 
     <footer class="site-footer">
-      <div class="container">
-        <p>© 2026 YMH354 Web Tasarımı ve Programlama Dersi Projesi</p>
-      </div>
+      
     </footer>
   </body>
 </html>
