@@ -1,10 +1,10 @@
 /* Color Theme Swatches in Hex */
 :root {
-    --primary-color: #f9ffde;;
-    --secondary-color: rgb(255, 235, 248);
-    --accent-color: #000bd3;
+    --primary-color: #00ab47;;
+    --secondary-color: rgb(233, 54, 0);
+    --accent-color: #00ccd3;
     --dark-color: #000000;
-    --highlight-color: #ebff93;
+    --highlight-color: #c979ff;
 }
 
 html, body {
