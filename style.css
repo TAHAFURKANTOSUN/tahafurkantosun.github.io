@@ -1,8 +1,8 @@
 /* Color Theme Swatches in Hex */
 :root {
-    --primary-color: #00ab47;;
+    --primary-color: #00ab47;
     --secondary-color: rgb(233, 54, 0);
-    --accent-color: #00ccd3;
+    --accent-color: #27d300;
     --dark-color: #000000;
     --highlight-color: #c979ff;
 }
