@@ -28,29 +28,48 @@ header {
     display: flex;
    background-color: #ffffff;
 }
+/* Ana Kapsayıcı */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap; /* Ekran dolunca alt satıra geçer */
+    gap: 10px;       /* Butonlar arasındaki boşluk */
+    max-width: 100%; /* Ekrandan dışarı taşmayı engeller */
+    padding: 10px;
+    align-items: center;
+}
+
+/* Buton Stil Düzenlemesi */
 .custom-button {
-   
-    
-    color: white;
-    
-   
-    display: inline-block;
-    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
     border-radius: 8px;
-    font-weight: bold;
-    font-family: sans-serif;
-    
-    
-    cursor: pointer; 
-    transition: all 0.3s ease; 
-    user-select: none; 
-    border: 2px solid transparent;
+    background-color: #f9f9f9;
+    transition: transform 0.2s;
+    cursor: pointer;
+    min-width: fit-content;
 }
 
 .custom-button:hover {
-    background-color: var(--accent-color); 
-    transform: translateY(-2px); 
-    box-shadow: 0 4px 15px rgba(0, 204, 211, 0.4); 
+    transform: scale(1.05);
+}
+
+/* İkonların Boyutu */
+.btn-icon {
+    width: 30px;      /* İkon genişliği */
+    height: 30px;     /* İkon yüksekliği */
+    object-fit: contain; /* Oranları korur */
+    display: block;
+}
+
+/* Başlıklar için stil */
+.section-title {
+    width: 100%;      /* Başlığın yeni satırda ve tam genişlikte olması için */
+    margin: 15px 0 5px 0;
+    font-weight: bold;
+    font-family: sans-serif;
 }
 .profile-img {
     width: 140px;
