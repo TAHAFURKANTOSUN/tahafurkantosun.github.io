@@ -110,8 +110,8 @@ nav ul li a:hover {
 }
 
 section {
-    padding: 20px;
-    margin: 150px;
+    padding: 120px;
+    margin: 20px;
     justify-content: center; /* Yatay hizalama */
     align-items: center;     /* Dikey hizalama */
     background: white;
