@@ -113,6 +113,7 @@ section {
     padding: 20px;
     margin: 20px; 
     margin-left: 100px;    /* Üstteki gruptan uzaklık */
+    margin-right: 50px;
     justify-content: center; /* Yatay hizalama */
     align-items: center;     /* Dikey hizalama */
     background: white;
