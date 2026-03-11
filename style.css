@@ -111,10 +111,9 @@ nav ul li a:hover {
 
 section {
     padding: 20px;
-    margin: 20px;
+    margin: 50px;
     justify-content: center; /* Yatay hizalama */
     align-items: center;     /* Dikey hizalama */
-    margin: 50px auto; /* Otomatik yatay margin ile ortalama */
     background: white;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
