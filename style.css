@@ -110,7 +110,7 @@ nav ul li a:hover {
 }
 
 section {
-    padding: 50px;
+    padding: 20px;
     margin-top: 20px;     /* Üstteki gruptan uzaklık */
     margin-bottom: 10px;  /* Altındaki butonlardan uzaklık */
     justify-content: center; /* Yatay hizalama */
